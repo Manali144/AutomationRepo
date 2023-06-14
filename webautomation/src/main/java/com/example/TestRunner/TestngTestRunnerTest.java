@@ -9,8 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 
 (
 
-	features ="classpath:feature",
-		//  features ="classpath:feature/01Login.feature",
+		   features ="classpath:feature/01Login.feature",
 		// features ="classpath:feature",
 		//    features ="classpath:feature/01SignUp.feature",
 		//  features ="classpath:feature/02MyProfile.feature",
@@ -32,7 +31,7 @@ import io.cucumber.testng.CucumberOptions;
 // plugin= {"html:target/cucumber.html", "json:target/cucumber.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","rerun:target/failed_scenarios.txt"}
 // ),
 
-plugin = {"pretty","html:target/cucumber.html","json:target/cucumber.json","junit:target/cucumber.xml"})
+plugin = {"pretty","html:target/cucumber.html","json:target/cucumber.json","junit:target/cucumber.xml","html:target/cucumber.html", "json:target/cucumber.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","rerun:target/failed_scenarios.txt"})
 
 
 //AbstractTestNGCucumberTests - This is class which provided all wrappers to run our cucumber test through TestNG

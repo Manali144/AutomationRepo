@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="76.89">
+    <testcase classname="Verify Login and sign up module with SignUp for Doctor,Chemist and Student, verify login with OTP and Password, ForgotPassword,Resend OTP,changepassword functionality and Quicklinks verification, Homepage Nonloggedin user access." name="Verify Login with Password functionality" time="47.027">
+        <system-out>
+            <![CDATA[Given Validate the browser..................................................passed
+Given User should be able to click on signup icon and verify the user is on signup page.passed
+When User clicks on I already have an account...............................passed
+Then User clicks on Login with Password button..............................passed
+When user enters the mobile number as 8530906851 mobile number..............passed
+When user enters the password as Test@123 password..........................passed
+Then User clicks on proceed button..........................................passed
+Then closes the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify Login and sign up module with SignUp for Doctor,Chemist and Student, verify login with OTP and Password, ForgotPassword,Resend OTP,changepassword functionality and Quicklinks verification, Homepage Nonloggedin user access." name="Verify login with otp functionality" time="29.637">
+        <system-out>
+            <![CDATA[Given Validate the browser..................................................passed
+Given User should be able to click on signup icon and verify the user is on signup page.passed
+When User clicks on I already have an account...............................passed
+Given User should be able to enter the number8530906851 mobile number.......passed
+Given User should be able to click the get otp 1 2 3 4......................passed
+Then User should be able to click on proceed button.........................passed
+When User should be able to verify Buy Medicine menu........................passed
+Then closes the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

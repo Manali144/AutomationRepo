@@ -171,7 +171,7 @@ public class GenericUtils extends TestBase {
 			   try
 			   {	
 					//waitForJSLoad();
-					WebElement element = getElement(locator);
+					WebElement element = getElement(locator);	
 					element.click(); 		
 					break;		
 					
@@ -179,8 +179,8 @@ public class GenericUtils extends TestBase {
 			   catch (Throwable e)
 			   {
 				
-			// System.out.println("Page not in ready state");
-			    wait(3000);
+			//	System.out.println("Page not in ready state");
+				wait(3000);
 				count++;
 			   }
 	        }

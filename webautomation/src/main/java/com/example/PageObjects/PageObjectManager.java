@@ -17,8 +17,7 @@ public class PageObjectManager {
 	public GenericUtils genericUtils;
 	
 	public LoginWithPassword loginwithpassword;
-	public LoginWithMobile loginWithmobile;
-	public FleetManagement Fleetmanagement;
+	
 
 	public PageObjectManager()
 	{
@@ -39,21 +38,6 @@ public LoginWithPassword getLoginWithPassword() throws IOException
 	 loginwithpassword = new LoginWithPassword();
 	return loginwithpassword;
 	}
-
-
-public LoginWithMobile getLoginWithMobile() throws IOException
-{
-	loginWithmobile = new LoginWithMobile();
-     return loginWithmobile;
-}
-
-
-public FleetManagement getFleetManagement() throws IOException
-{
-	 Fleetmanagement = new FleetManagement();
-     return Fleetmanagement;
-}
-
 	
 
 }

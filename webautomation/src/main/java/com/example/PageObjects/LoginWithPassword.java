@@ -84,8 +84,8 @@ public LoginWithPassword() throws IOException {
        log.info("STEP:Click on proceed button Successfully" + "Proceed_button2");
  }
  public void enterMobileInput(String MobileNumber) throws InterruptedException{
-        
-    enterText(locators.getKey("Mobile_input"),MobileNumber);
+        enterText(locators.getKey("Mobile_input"), MobileNumber);
+   // enterText(locators.getKey("Mobile_input"),MobileNumber);
    
        
     }

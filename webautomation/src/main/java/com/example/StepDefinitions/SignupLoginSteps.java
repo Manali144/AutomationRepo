@@ -146,7 +146,10 @@ public void user_should_be_able_to_verify_buy_medicine_menu() throws Throwable {
     loginwithpassord.userIsOnVerifyBuyMedicineMenufotlogin();
 
 }
-
+@When("^user click on signup button$")
+public void user_click_on_signup_button() throws Throwable {
+	
+}
 
 }
 
